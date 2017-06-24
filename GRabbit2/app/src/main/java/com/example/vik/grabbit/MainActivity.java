@@ -299,6 +299,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onPause(){
         super.onPause();
         th.cancel();
+            Start.mp1.stop();
         finish();
 
     }
